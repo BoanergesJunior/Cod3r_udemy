@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Primeiro from './componentes/Primeiro'
-
+//import Primeiro from './componentes/Primeiro'
+import BomDia from './componentes/BomDia'
 //JSX
 
-ReactDOM.render(<Primeiro />, document.getElementById('root'))
+ReactDOM.render(<BomDia nome = "Boanerges" idade="23"/>, document.getElementById('root'))
